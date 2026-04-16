@@ -27,9 +27,16 @@ namespace ShoppingCartApp
             while (continueShopping)
             {
                 Console.WriteLine("\n=== STORE MENU ===");
+                Console.WriteLine("0. Checkout");
+
                 foreach (var p in products)
                 {
                     p.DisplayProduct();
+                }
+
+                if (cartCount >= cart.Length)
+                {
+                    Console.WriteLine("Note: Cart is full. You can only checkout.");
                 }
 
                 // PRODUCT INPUT
@@ -40,12 +47,30 @@ namespace ShoppingCartApp
                     continue;
                 }
 
+                // HANDLE CHECKOUT 
+                if (productChoice == 0)
+                {
+                    continueShopping = false;
+                    break;
+                }
+
+                // THEN validate range
                 if (productChoice < 1 || productChoice > products.Length)
                 {
                     Console.WriteLine("Invalid product number.");
                     continue;
                 }
 
+                if (productChoice < 1 || productChoice > products.Length)
+                {
+                    Console.WriteLine("Invalid product number.");
+                    continue;
+                }
+                if (cartCount >= cart.Length)
+                {
+                    Console.WriteLine("Cart is full. Please proceed to checkout.");
+                    continue;
+                }
                 Product selectedProduct = products[productChoice - 1];
 
                 if (selectedProduct.RemainingStock == 0)
