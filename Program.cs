@@ -19,7 +19,7 @@ namespace ShoppingCartApp
                 new Product { Id = 7, Name = "Webcam", Price = 950, RemainingStock = 3 }
             };
 
-            CartItem[] cart = new CartItem[5];
+            ShoppingCart[] cart = new ShoppingCart[5];
             int cartCount = 0;
 
             bool continueShopping = true;
@@ -112,7 +112,7 @@ namespace ShoppingCartApp
                         continue;
                     }
 
-                    cart[cartCount] = new CartItem
+                    cart[cartCount] = new ShoppingCart
                     {
                         Product = selectedProduct,
                         Quantity = quantity
