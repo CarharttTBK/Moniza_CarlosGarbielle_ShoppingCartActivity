@@ -52,8 +52,7 @@ Process Flowchart, in a png
    * I struggled with understanding the process with C# so I used AI to give me an outline of the files and architecture of the program to be made. The AI used was Claude Sonna Ext.
    * I also used it for ideas on how to check the logic, as well to ensure proper validation and avoid runtime errors.
 The AI used was VS Code's inbuilt Copilot.
-   * Lastly, I used Ai to format this. </3
-   - The good majority of the code was handwritten and made by me. AI only served as to guide me with the outline and errors along the way.
+   - The good majority of the code was handwritten and made by me. AI only served as to guide me with the outline and errors along the way. 
 
 ---
 
@@ -69,3 +68,7 @@ The AI used was VS Code's inbuilt Copilot.
 
 Author:
 Moniza, Gab
+
+6 7
+6 7 
+6 7
