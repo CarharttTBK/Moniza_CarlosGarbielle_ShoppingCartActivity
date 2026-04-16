@@ -1,5 +1,13 @@
 # Moniza_CarlosGarbielle_ShoppingCartActivity
 
+---
+
+How to run? 
+
+Select Program.cs and type `dotnet run` on console.
+
+---
+
 This project is a simple console-based shopping cart system developed using C#. It allows users to select products, add them to a cart, and compute the total amount with stock management and discount features.
 
 ---
