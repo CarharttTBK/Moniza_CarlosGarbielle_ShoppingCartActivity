@@ -1,0 +1,28 @@
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy\bin\Debug\net10.0\ShoppingCartActivity.exe
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy\bin\Debug\net10.0\ShoppingCartActivity.deps.json
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy\bin\Debug\net10.0\ShoppingCartActivity.runtimeconfig.json
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy\bin\Debug\net10.0\ShoppingCartActivity.dll
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy\bin\Debug\net10.0\ShoppingCartActivity.pdb
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy\obj\Debug\net10.0\ShoppingCartActivity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy\obj\Debug\net10.0\ShoppingCartActivity.AssemblyInfoInputs.cache
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy\obj\Debug\net10.0\ShoppingCartActivity.AssemblyInfo.cs
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy\obj\Debug\net10.0\ShoppingCartActivity.csproj.CoreCompileInputs.cache
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy\obj\Debug\net10.0\ShoppingCartActivity.dll
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy\obj\Debug\net10.0\refint\ShoppingCartActivity.dll
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy\obj\Debug\net10.0\ShoppingCartActivity.pdb
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy\obj\Debug\net10.0\ShoppingCartActivity.genruntimeconfig.cache
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy\obj\Debug\net10.0\ref\ShoppingCartActivity.dll
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy - Copy\obj\Debug\net10.0\ShoppingCartActivity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy - Copy\obj\Debug\net10.0\ShoppingCartActivity.AssemblyInfoInputs.cache
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy - Copy\obj\Debug\net10.0\ShoppingCartActivity.AssemblyInfo.cs
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy - Copy\obj\Debug\net10.0\ShoppingCartActivity.csproj.CoreCompileInputs.cache
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy - Copy\obj\Debug\net10.0\ShoppingCartActivity.dll
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy - Copy\obj\Debug\net10.0\refint\ShoppingCartActivity.dll
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy - Copy\obj\Debug\net10.0\ShoppingCartActivity.pdb
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy - Copy\bin\Debug\net10.0\ShoppingCartActivity.exe
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy - Copy\bin\Debug\net10.0\ShoppingCartActivity.deps.json
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy - Copy\bin\Debug\net10.0\ShoppingCartActivity.runtimeconfig.json
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy - Copy\bin\Debug\net10.0\ShoppingCartActivity.dll
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy - Copy\bin\Debug\net10.0\ShoppingCartActivity.pdb
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy - Copy\obj\Debug\net10.0\ShoppingCartActivity.genruntimeconfig.cache
+C:\Users\Gab Moniza\ShoppingCartActivity - Copy - Copy\obj\Debug\net10.0\ref\ShoppingCartActivity.dll
