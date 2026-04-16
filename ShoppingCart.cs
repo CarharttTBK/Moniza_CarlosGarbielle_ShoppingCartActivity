@@ -1,5 +1,3 @@
-using ShoppingCartApp;    
-
 namespace ShoppingCartApp
 {
     public class ShoppingCart
