@@ -147,6 +147,31 @@ Used to write the `GetYesNo()` helper method. The structure was explained by Cla
 
 ---
 
+## Summary of Changes
+
+### Part 1 – Fixes
+
+- **README naming fix** — Corrected `CartItem.cs` to `ShoppingCart.cs` throughout the README to match the actual file used in the project
+- **Removed duplicate validation** — Deleted the second identical product range check (`if productChoice < 1 || > products.Length`) in `Program.cs`
+- **Strict Y/N re-prompting** — Replaced the old Y/N handling (which silently returned to menu on bad input) with a `GetYesNo()` helper that loops until the user enters exactly `Y` or `N`
+- **Expanded AI Usage section** — Listed 7 specific prompts with the exact question asked, the tool used (Claude / Copilot), and what was done with the answer
+
+### Part 2 – New Features
+
+- **Cart Management Menu** — Added a dedicated cart submenu with options to view, remove an item, update quantity, clear the entire cart, or proceed to checkout
+- **Product Search** — Users can search products by name with partial, case-insensitive matching
+- **Product Categories** — Added a `Category` field to `Product.cs`; users can browse and filter products by category from the main menu
+- **Payment Validation** — Checkout now asks for payment, re-prompts if the input is non-numeric or insufficient, and displays the computed change
+- **Receipt Number and Date/Time** — Each receipt shows a zero-padded receipt number (e.g., `0001`) and a formatted checkout date and time
+- **Low Stock Alert** — After every checkout, products with 5 or fewer remaining stock are flagged; out-of-stock products are marked separately
+- **Order History** — Completed transactions are stored in an `OrderRecord[]` array and viewable from the main menu at any point during the session
+
+### New File Added
+
+- `OrderRecord.cs` — Stores receipt number, date/time, totals, payment, and change for each completed transaction
+
+---
+
 The good majority of the code was written by hand. AI was used to answer specific technical questions and explain C# behavior — not to generate complete solutions.
 
 ---
@@ -155,7 +180,8 @@ The good majority of the code was written by hand. AI was used to answer specifi
 
 
 
-Shout out to Galdive, and The Marias. 
-Frank Ocean my goat 😭🙏💔🥀😭🥀
+Shoutout to:
+| Galdive | The Marias | Frank Ocean | FARR | YE | 
+My goats fr 😭🙏💔🥀😭🥀
 
 
