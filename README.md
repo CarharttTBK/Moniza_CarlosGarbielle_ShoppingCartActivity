@@ -181,7 +181,14 @@ The good majority of the code was written by hand. AI was used to answer specifi
 
 
 Shoutout to:
-| Galdive | The Marias | Frank Ocean | FARR | YE | 
+| # | Artist |
+|---|---|
+| 1 | Galdive |
+| 2 | FARR |
+| 3 | again&again |
+| 4 | SNEAKER KIDS |
+| 5 | Frank Ocean |
+| 6 | The Marias |
 My goats fr 😭🙏💔🥀😭🥀
 
 
