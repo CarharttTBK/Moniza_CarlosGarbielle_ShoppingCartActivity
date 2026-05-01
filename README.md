@@ -17,6 +17,11 @@ Load the folder from downloading the code zip from the repo. Run it after openin
 This project is a console-based shopping cart system built in C#. It allows users to browse products, search by name or category, manage a cart, checkout with payment validation, and view order history across a session.
 
 ---
+## Screenshots
+<img width="447" height="415" alt="Image" src="https://github.com/user-attachments/assets/87e286b2-913b-480f-938d-a96fab88b3ab" /> 
+
+
+---
 
 ## Part 1 – Features
 
