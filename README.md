@@ -25,7 +25,7 @@ This project is a console-based shopping cart system built in C#. It allows user
 | <img width="447" height="415" alt="Image" src="https://github.com/user-attachments/assets/87e286b2-913b-480f-938d-a96fab88b3ab" /> | <img width="625" height="290" alt="Image" src="https://github.com/user-attachments/assets/1cf548bb-d5f5-4e22-9b13-666ef96fd81a" /> |
 | <img width="572" height="124" alt="Image" src="https://github.com/user-attachments/assets/c73a04c0-c7ad-46d6-ad47-f7bfb7dc9e91" /> | <img width="664" height="302" alt="Image" src="https://github.com/user-attachments/assets/a81c430f-1d44-4fc1-a3d3-f98375a31076" /> |
 | <img width="333" height="211" alt="Image" src="https://github.com/user-attachments/assets/4bdffda3-0ced-402b-8281-1376df83c0a8" /> | <img width="694" height="315" alt="Image" src="https://github.com/user-attachments/assets/028d41bf-f864-484d-a5ed-56f57ec13a9d" /> |
-| <img width="735" height="863" alt="Image" src="https://github.com/user-attachments/assets/13f5911e-fcb5-45b3-8ec3-b2efd6b3687c" /> | |
+| <img width="735" height="863" alt="Image" src="https://github.com/user-attachments/assets/13f5911e-fcb5-45b3-8ec3-b2efd6b3687c" /> | <img width="675" height="166" alt="Image" src="https://github.com/user-attachments/assets/abace727-b873-4c7a-9177-b7f0b8d426c3" /> |
 
 ---
 
@@ -152,6 +152,6 @@ The good majority of the code was written by hand. AI was used to answer specifi
 
 ## Author: Carlos Moñiza
 
-67676767676767
+Frank Ocean my goat 😭🙏💔🥀😭🥀
 
 
