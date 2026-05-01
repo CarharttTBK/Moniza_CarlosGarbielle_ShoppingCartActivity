@@ -139,10 +139,8 @@ The good majority of the code was written by hand. AI was used to answer specifi
 
 ---
 
-Author: Carlos Moñiza
+## Author: Carlos Moñiza
 
 67676767676767
 
-## Author
 
-Moniza, Gab
