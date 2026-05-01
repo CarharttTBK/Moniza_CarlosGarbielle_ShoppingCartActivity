@@ -75,8 +75,8 @@ This project is a console-based shopping cart system built in C#. It allows user
 
 ## Flowchart
 
-(Original w/ Higher defition image available in files as a png.)
 <img width="3890" height="5798" alt="Image" src="https://github.com/user-attachments/assets/813daeb6-26ca-4626-bad0-f488ce66f3ce" />
+(Original w/ Higher defition image is available for download in files as a PNG.)
 
 ---
 
@@ -153,6 +153,9 @@ The good majority of the code was written by hand. AI was used to answer specifi
 
 ## Author: Carlos Moñiza
 
+
+
+Shout out to Galdive, and The Marias. 
 Frank Ocean my goat 😭🙏💔🥀😭🥀
 
 
