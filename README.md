@@ -75,7 +75,8 @@ This project is a console-based shopping cart system built in C#. It allows user
 
 ## Flowchart
 
-<img width="5187" height="7731" alt="Image" src="https://github.com/user-attachments/assets/b42df617-6cd5-4eea-8071-e5455ec933c1" />
+(Original w/ Higher defition image available in files as a png.)
+<img width="3890" height="5798" alt="Image" src="https://github.com/user-attachments/assets/813daeb6-26ca-4626-bad0-f488ce66f3ce" />
 
 ---
 
