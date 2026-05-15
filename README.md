@@ -178,17 +178,35 @@ The good majority of the code was written by hand. AI was used to answer specifi
 
 ## Author: Carlos Moñiza
 
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
 
 
 Shoutout to:
-| Artist |
-|---|
-| Galdive |
-| FARR |
-| again&again |
-| SNEAKER KIDS |
-| Frank Ocean |
-| The Marias |
-My goats fr 😭🙏💔🥀😭🥀
+| Artists | |
+|---|---|
+| Zamir | Full Circle Boys | 
+| Marc Indigo | A-P Connection |
+| Alohaii | Koven Wei |
+| Eli Noir | Niko Rain |
+| Planet Girl | SOCKiTTOME |
+| MICO | Forrest | 
+hehe
 
-
+GET SET SIX SEVEN
