@@ -1,6 +1,6 @@
 using System;
 
-namespace ShoppingCartApp
+namespace ShoppingCartActivity
 {
     public class Product
     {
@@ -8,18 +8,19 @@ namespace ShoppingCartApp
         public string? Name { get; set; }
         public double Price { get; set; }
         public int RemainingStock { get; set; }
+        public string? Category { get; set; }
 
-      public void DisplayProduct()
-    {
-        if (RemainingStock == 0)
+        public void DisplayProduct()
         {
-            Console.WriteLine($"{Id}. {Name} - ₱{Price} (OUT OF STOCK)");
+            if (RemainingStock == 0)
+            {
+                Console.WriteLine($"{Id}. [{Category}] {Name} - ₱{Price} (OUT OF STOCK)");
+            }
+            else
+            {
+                Console.WriteLine($"{Id}. [{Category}] {Name} - ₱{Price} (Stock: {RemainingStock})");
+            }
         }
-        else
-        {
-            Console.WriteLine($"{Id}. {Name} - ₱{Price} (Stock: {RemainingStock})");
-        }
-    }
 
         public double GetItemTotal(int quantity)
         {
@@ -34,6 +35,11 @@ namespace ShoppingCartApp
         public void DeductStock(int quantity)
         {
             RemainingStock -= quantity;
+        }
+
+        public void RestoreStock(int quantity)
+        {
+            RemainingStock += quantity;
         }
     }
 }

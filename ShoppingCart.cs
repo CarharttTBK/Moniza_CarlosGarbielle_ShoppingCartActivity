@@ -1,4 +1,5 @@
-namespace ShoppingCartApp
+namespace ShoppingCartActivity
+
 {
     public class ShoppingCart
     {
