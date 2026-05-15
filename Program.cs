@@ -84,7 +84,7 @@ namespace ShoppingCartApp
         }
 
         // ─────────────────────────────────────────────────────────────
-        //  1. BROWSE & ADD PRODUCT
+        //  1. BROWSE & ADD PRODUCT (fixed: use selectedProduct variable name)
         // ─────────────────────────────────────────────────────────────
         static void BrowseAndAddProduct(Product[] products)
         {
@@ -115,15 +115,15 @@ namespace ShoppingCartApp
                 return;
             }
 
-            Product selected = products[productChoice - 1];
+            Product selectedProduct = products[productChoice - 1];
 
-            if (selected.RemainingStock == 0)
+            if (selectedProduct.RemainingStock == 0)
             {
                 Console.WriteLine("Sorry, that product is out of stock.");
                 return;
             }
 
-            Console.Write($"Enter quantity for {selected.Name} (Available: {selected.RemainingStock}): ");
+            Console.Write($"Enter quantity for {selectedProduct.Name} (Available: {selectedProduct.RemainingStock}): ");
             if (!int.TryParse(Console.ReadLine(), out int quantity))
             {
                 Console.WriteLine("Invalid input. Please enter a number.");
@@ -142,9 +142,9 @@ namespace ShoppingCartApp
                 return;
             }
 
-            if (!selected.HasEnoughStock(quantity))
+            if (!selectedProduct.HasEnoughStock(quantity))
             {
-                Console.WriteLine($"Not enough stock. Only {selected.RemainingStock} left.");
+                Console.WriteLine($"Not enough stock. Only {selectedProduct.RemainingStock} left.");
                 return;
             }
 
@@ -152,17 +152,17 @@ namespace ShoppingCartApp
             bool found = false;
             for (int i = 0; i < cartCount; i++)
             {
-                if (cart[i].Product.Id == selected.Id)
+                if (cart[i].Product.Id == selectedProduct.Id)
                 {
-                    // selected.RemainingStock is what's still available (already deducted previous adds)
-                    if (!selected.HasEnoughStock(quantity))
+                    // selectedProduct.RemainingStock is what's still available (already deducted previous adds)
+                    if (!selectedProduct.HasEnoughStock(quantity))
                     {
-                        Console.WriteLine($"Not enough stock to add {quantity} more. Only {selected.RemainingStock} left.");
+                        Console.WriteLine($"Not enough stock to add {quantity} more. Only {selectedProduct.RemainingStock} left.");
                         found = true;
                         break;
                     }
                     cart[i].Quantity += quantity;
-                    selected.DeductStock(quantity);
+                    selectedProduct.DeductStock(quantity);
                     Console.WriteLine($"Updated cart: {cart[i].Product.Name} x{cart[i].Quantity}");
                     found = true;
                     break;
@@ -171,10 +171,10 @@ namespace ShoppingCartApp
 
             if (!found)
             {
-                cart[cartCount] = new ShoppingCart { Product = selected, Quantity = quantity };
+                cart[cartCount] = new ShoppingCart(selectedProduct, quantity);
                 cartCount++;
-                selected.DeductStock(quantity);
-                Console.WriteLine($"✓ {selected.Name} x{quantity} added to cart!");
+                selectedProduct.DeductStock(quantity);
+                Console.WriteLine($"✓ {selectedProduct.Name} x{quantity} added to cart!");
             }
         }
 
