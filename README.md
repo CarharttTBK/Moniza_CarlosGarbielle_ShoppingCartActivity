@@ -2,6 +2,25 @@
 
 ---
 
+## Updates
+
+Merged from Part 2, made new branch.
+
+### Encapsulation (Getter/Setter)
+
+Applied private backing fields with explicit `get` and `set` properties to `Product.cs` and `ShoppingCart.cs`.
+
+Previously, all properties were public auto-properties, meaning any part of the program could read or write to them directly. They have been refactored so that the actual data is stored in private fields (e.g., `_name`, `_price`, `_quantity`) and can only be accessed or modified through their corresponding public properties.
+
+| File | Fields Encapsulated |
+|---|---|
+| `Product.cs` | `Id`, `Name`, `Price`, `RemainingStock`, `Category` |
+| `ShoppingCart.cs` | `Product`, `Quantity` |
+
+A constructor was also added to `ShoppingCart` to properly initialize the private fields on creation.
+
+---
+
 ## How to Run
 
 For VS Code:
@@ -207,6 +226,7 @@ Shoutout to:
 | Eli Noir | Niko Rain |
 | Planet Girl | SOCKiTTOME |
 | MICO | Forrest | 
+
 hehe
 
 GET SET SIX SEVEN
