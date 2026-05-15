@@ -4,42 +4,75 @@ namespace ShoppingCartActivity
 {
     public class Product
     {
-        public int Id { get; set; }
-        public string? Name { get; set; }
-        public double Price { get; set; }
-        public int RemainingStock { get; set; }
-        public string? Category { get; set; }
+        // Notes lang;
+        // Private backing fields
+        private int _id;
+        private string? _name;
+        private double _price;
+        private int _remainingStock;
+        private string? _category;
+
+        // Public properties — basically controlled access to the private fields above
+        public int Id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
+
+        public string? Name
+        {
+            get { return _name; }
+            set { _name = value; }
+        }
+
+        public double Price
+        {
+            get { return _price; }
+            set { _price = value; }
+        }
+
+        public int RemainingStock
+        {
+            get { return _remainingStock; }
+            set { _remainingStock = value; }
+        }
+
+        public string? Category
+        {
+            get { return _category; }
+            set { _category = value; }
+        }
 
         public void DisplayProduct()
         {
-            if (RemainingStock == 0)
+            if (_remainingStock == 0)
             {
-                Console.WriteLine($"{Id}. [{Category}] {Name} - ₱{Price} (OUT OF STOCK)");
+                Console.WriteLine($"{_id}. [{_category}] {_name} - ₱{_price} (OUT OF STOCK)");
             }
             else
             {
-                Console.WriteLine($"{Id}. [{Category}] {Name} - ₱{Price} (Stock: {RemainingStock})");
+                Console.WriteLine($"{_id}. [{_category}] {_name} - ₱{_price} (Stock: {_remainingStock})");
             }
         }
 
         public double GetItemTotal(int quantity)
         {
-            return Price * quantity;
+            return _price * quantity;
         }
 
         public bool HasEnoughStock(int quantity)
         {
-            return quantity <= RemainingStock;
+            return quantity <= _remainingStock;
         }
 
         public void DeductStock(int quantity)
         {
-            RemainingStock -= quantity;
+            _remainingStock -= quantity;
         }
 
         public void RestoreStock(int quantity)
         {
-            RemainingStock += quantity;
+            _remainingStock += quantity;
         }
     }
 }
